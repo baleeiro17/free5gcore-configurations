@@ -10,7 +10,7 @@
 
 #include "pfcp_xact.h"
 
-#define SIZE_OF_PFCP_XACT_POOL       64
+#define SIZE_OF_PFCP_XACT_POOL       164
 #define PFCP_MIN_XACT_ID             1
 #define PFCP_MAX_XACT_ID             0x800000
 
