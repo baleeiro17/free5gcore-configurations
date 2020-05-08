@@ -1,0 +1,881 @@
+Scanning dependencies of target m3_flag
+Scanning dependencies of target s1ap_flag
+Scanning dependencies of target m2_flag
+Scanning dependencies of target generate_T
+Scanning dependencies of target x2_flag
+Scanning dependencies of target rrc_flag
+[  0%] Built target m2_flag
+[  0%] Built target generate_T
+[  0%] Built target m3_flag
+[  0%] Built target x2_flag
+[  0%] Built target s1ap_flag
+[  0%] Built target rrc_flag
+Scanning dependencies of target HASHTABLE
+Scanning dependencies of target dfts
+[  0%] Building C object CMakeFiles/HASHTABLE.dir/home/lucas/workspace/ue_folder/common/utils/hashtable/hashtable.c.o
+Scanning dependencies of target SECU_CN
+Scanning dependencies of target SECU_OSA
+[  0%] Building C object CMakeFiles/dfts.dir/home/lucas/workspace/ue_folder/openair1/PHY/TOOLS/oai_dfts.c.o
+[  0%] Building C object CMakeFiles/SECU_CN.dir/home/lucas/workspace/ue_folder/openair3/SECU/kdf.c.o
+[  0%] Building C object CMakeFiles/SECU_OSA.dir/home/lucas/workspace/ue_folder/openair2/UTIL/OSA/osa_key_deriver.c.o
+Scanning dependencies of target NFAPI_PNF_LIB
+[  0%] Building C object CMakeFiles/NFAPI_PNF_LIB.dir/home/lucas/workspace/ue_folder/nfapi/open-nFAPI/pnf/src/pnf.c.o
+[  0%] Building C object CMakeFiles/SECU_CN.dir/home/lucas/workspace/ue_folder/openair3/SECU/rijndael.c.o
+[  0%] Building C object CMakeFiles/HASHTABLE.dir/home/lucas/workspace/ue_folder/common/utils/hashtable/obj_hashtable.c.o
+[  0%] Building C object CMakeFiles/SECU_OSA.dir/home/lucas/workspace/ue_folder/openair2/UTIL/OSA/osa_rijndael.c.o
+[  0%] Building C object CMakeFiles/SECU_CN.dir/home/lucas/workspace/ue_folder/openair3/SECU/snow3g.c.o
+[  0%] Building C object CMakeFiles/SECU_OSA.dir/home/lucas/workspace/ue_folder/openair2/UTIL/OSA/osa_snow3g.c.o
+[  0%] Linking C static library libHASHTABLE.a
+[  0%] Building C object CMakeFiles/SECU_CN.dir/home/lucas/workspace/ue_folder/openair3/SECU/key_nas_deriver.c.o
+[  0%] Built target HASHTABLE
+[  0%] Building C object CMakeFiles/SECU_OSA.dir/home/lucas/workspace/ue_folder/openair2/UTIL/OSA/osa_stream_eea.c.o
+[  0%] Building C object CMakeFiles/NFAPI_PNF_LIB.dir/home/lucas/workspace/ue_folder/nfapi/open-nFAPI/pnf/src/pnf_interface.c.o
+[  0%] Building C object CMakeFiles/SECU_CN.dir/home/lucas/workspace/ue_folder/openair3/SECU/nas_stream_eea1.c.o
+Scanning dependencies of target L2_LTE
+[  0%] Building C object CMakeFiles/L2_LTE.dir/home/lucas/workspace/ue_folder/openair2/LAYER2/rlc_v2/rlc_oai_api.c.o
+[  0%] Building C object CMakeFiles/SECU_CN.dir/home/lucas/workspace/ue_folder/openair3/SECU/nas_stream_eia1.c.o
+[  0%] Building C object CMakeFiles/SECU_OSA.dir/home/lucas/workspace/ue_folder/openair2/UTIL/OSA/osa_stream_eia.c.o
+[  0%] Building C object CMakeFiles/L2_LTE.dir/home/lucas/workspace/ue_folder/openair2/LAYER2/rlc_v2/asn1_utils.c.o
+[  0%] Building C object CMakeFiles/NFAPI_PNF_LIB.dir/home/lucas/workspace/ue_folder/nfapi/open-nFAPI/pnf/src/pnf_p7.c.o
+[  0%] Building C object CMakeFiles/SECU_CN.dir/home/lucas/workspace/ue_folder/openair3/SECU/nas_stream_eea2.c.o
+[  0%] Building C object CMakeFiles/SECU_CN.dir/home/lucas/workspace/ue_folder/openair3/SECU/nas_stream_eia2.c.o
+[  0%] Linking C static library libSECU_OSA.a
+[  0%] Building C object CMakeFiles/L2_LTE.dir/home/lucas/workspace/ue_folder/openair2/LAYER2/rlc_v2/rlc_ue_manager.c.o
+[  0%] Built target SECU_OSA
+Scanning dependencies of target SIMU
+[  0%] Linking C static library libSECU_CN.a
+[  0%] Built target SECU_CN
+[  0%] Building C object CMakeFiles/L2_LTE.dir/home/lucas/workspace/ue_folder/openair2/LAYER2/rlc_v2/rlc_entity.c.o
+[  0%] Building C object CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/random_channel.c.o
+[  0%] Building C object CMakeFiles/NFAPI_PNF_LIB.dir/home/lucas/workspace/ue_folder/nfapi/open-nFAPI/pnf/src/pnf_p7_interface.c.o
+[  1%] Building C object CMakeFiles/L2_LTE.dir/home/lucas/workspace/ue_folder/openair2/LAYER2/rlc_v2/rlc_entity_am.c.o
+[  1%] Linking C static library libNFAPI_PNF_LIB.a
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair2/LAYER2/rlc_v2/rlc_oai_api.c:363:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+[  1%] Built target NFAPI_PNF_LIB
+CMakeFiles/L2_LTE.dir/build.make:62: recipe for target 'CMakeFiles/L2_LTE.dir/home/lucas/workspace/ue_folder/openair2/LAYER2/rlc_v2/rlc_oai_api.c.o' failed
+make[3]: *** [CMakeFiles/L2_LTE.dir/home/lucas/workspace/ue_folder/openair2/LAYER2/rlc_v2/rlc_oai_api.c.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+[  1%] Building C object CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/rangen_double.c.o
+CMakeFiles/Makefile2:2454: recipe for target 'CMakeFiles/L2_LTE.dir/all' failed
+make[2]: *** [CMakeFiles/L2_LTE.dir/all] Error 2
+make[2]: *** Waiting for unfinished jobs....
+[  1%] Building C object CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/taus.c.o
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair1/PHY/phy_extern.h:26,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent_ran_api.h:45,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent_common.h:40,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent.h:32,
+                 from /home/lucas/workspace/ue_folder/targets/RT/USER/lte-softmodem.h:32,
+                 from /home/lucas/workspace/ue_folder/targets/RT/USER/rfsim.h:23,
+                 from /home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/sim.h:452,
+                 from /home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/random_channel.c:30:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+CMakeFiles/SIMU.dir/build.make:62: recipe for target 'CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/random_channel.c.o' failed
+make[3]: *** [CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/random_channel.c.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+Scanning dependencies of target M2AP_LIB
+Scanning dependencies of target F1AP_LIB
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/BIT_STRING.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/ANY.c.o
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair1/PHY/phy_extern.h:26,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent_ran_api.h:45,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent_common.h:40,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent.h:32,
+                 from /home/lucas/workspace/ue_folder/targets/RT/USER/lte-softmodem.h:32,
+                 from /home/lucas/workspace/ue_folder/targets/RT/USER/rfsim.h:23,
+                 from /home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/sim.h:452,
+                 from /home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/rangen_double.c:27:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/ANY.c.o
+CMakeFiles/SIMU.dir/build.make:86: recipe for target 'CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/rangen_double.c.o' failed
+make[3]: *** [CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/rangen_double.c.o] Error 1
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/INTEGER.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Active-MBMS-Session-List.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/BIT_STRING.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_AllocatedSubframesEnd.c.o
+Scanning dependencies of target M2AP_ENB
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_AllocationAndRetentionPriority.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_BitRate.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Active-Cells-Item.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Cause.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Active-Cells-List.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_CauseMisc.c.o
+Scanning dependencies of target LIB_NAS_UE
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair1/PHY/phy_extern.h:26,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent_ran_api.h:45,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent_common.h:40,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent.h:32,
+                 from /home/lucas/workspace/ue_folder/targets/RT/USER/lte-softmodem.h:32,
+                 from /home/lucas/workspace/ue_folder/targets/RT/USER/rfsim.h:23,
+                 from /home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/sim.h:452,
+                 from /home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/taus.c:24:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_AllocationAndRetentionPriority.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_AveragingWindow.c.o
+CMakeFiles/SIMU.dir/build.make:110: recipe for target 'CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/taus.c.o' failed
+make[3]: *** [CMakeFiles/SIMU.dir/home/lucas/workspace/ue_folder/openair1/SIMULATION/TOOLS/taus.c.o] Error 1
+CMakeFiles/Makefile2:1546: recipe for target 'CMakeFiles/SIMU.dir/all' failed
+make[2]: *** [CMakeFiles/SIMU.dir/all] Error 2
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_BitRate.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Broadcast-To-Be-Cancelled-Item.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Broadcast-To-Be-Cancelled-List.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_BroadcastPLMNs-Item.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_BroadcastPLMNs-List.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_CauseNAS.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_CauseProtocol.c.o
+[  1%] Building C object CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_eNB.c.o
+[  1%] Building C object CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_MCE.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_C-RNTI.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CG-ConfigInfo.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CNUEPagingIdentity.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_CauseRadioNetwork.c.o
+[  1%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/nas_itti_messaging.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CP-TransportLayerAddress.c.o
+[  1%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/nas_network.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_CauseTransport.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CUtoDURRCInformation.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cancel-all-Warning-Messages-Indicator.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Cell-Information-List.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Cell-Information.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Candidate-SpCell-Item.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Candidate-SpCell-List.c.o
+[  1%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Common-Subframe-Allocation-Period.c.o
+[  1%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cause.c.o
+[  2%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/nas_parser.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_CountingResult.c.o
+[  2%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/nas_proc.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CauseMisc.c.o
+[  2%] Building C object CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_decoder.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Criticality.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CauseProtocol.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_CriticalityDiagnostics-IE-List.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CauseRadioNetwork.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_CriticalityDiagnostics.c.o
+[  2%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/nas_user.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CauseTransport.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ECGI.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CellBarred.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENB-ID.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CellGroupConfig.c.o
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_common.h:39,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_eNB_generate_messages.h:33,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_eNB.c:41:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_common.h:39,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_MCE_generate_messages.h:33,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_MCE.c:41:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENB-MBMS-Configuration-data-ConfigUpdate-Item.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CellULConfigured.c.o
+CMakeFiles/M2AP_ENB.dir/build.make:62: recipe for target 'CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_eNB.c.o' failed
+make[3]: *** [CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_eNB.c.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-Broadcast-Cancelled-Item.c.o
+CMakeFiles/M2AP_ENB.dir/build.make:86: recipe for target 'CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_MCE.c.o' failed
+make[3]: *** [CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_MCE.c.o] Error 1
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-Broadcast-Cancelled-List.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENB-MBMS-Configuration-data-Item.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENB-MBMS-Configuration-data-List-ConfigUpdate.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-Broadcast-Completed-Item.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-Broadcast-Completed-List.c.o
+[  2%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-Failed-to-be-Activated-List-Item.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENB-MBMS-Configuration-data-List.c.o
+[  2%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENB-MBMS-M2AP-ID.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-Failed-to-be-Activated-List.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-To-Be-Broadcast-Item.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENBConfigurationUpdate.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENBConfigurationUpdateAcknowledge.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENBConfigurationUpdateFailure.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-To-Be-Broadcast-List.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ENBname.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-to-be-Activated-List-Item.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_EUTRANCellIdentifier.c.o
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_common.h:39,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_decoder.c:33:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-to-be-Barred-Item.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-to-be-Activated-List.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ErrorIndication.c.o
+CMakeFiles/M2AP_ENB.dir/build.make:110: recipe for target 'CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_decoder.c.o' failed
+make[3]: *** [CMakeFiles/M2AP_ENB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_decoder.c.o] Error 1
+CMakeFiles/Makefile2:3725: recipe for target 'CMakeFiles/M2AP_ENB.dir/all' failed
+make[2]: *** [CMakeFiles/M2AP_ENB.dir/all] Error 2
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_GBR-QosInformation.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_GTP-TEID.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_GlobalENB-ID.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_GlobalMCE-ID.c.o
+[  3%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/API/NETWORK/as_message.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_IPAddress.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-to-be-Barred-List.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-to-be-Deactivated-List-Item.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Cells-to-be-Deactivated-List.c.o
+[  3%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/API/NETWORK/nas_message.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_InitiatingMessage.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ConcurrentWarningMessageIndicator.c.o
+[  3%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/API/NETWORK/network_api.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Configured-EPS-TAC.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Criticality.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_LCID.c.o
+[  3%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/API/USER/at_command.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CriticalityDiagnostics-IE-Item.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CriticalityDiagnostics-IE-List.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_M2AP-PDU.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_CriticalityDiagnostics.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DLRRCMessageTransfer.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_M2SetupFailure.c.o
+[  3%] Linking C shared module libdfts.so
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DLUPTNLInformation-ToBeSetup-Item.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DLUPTNLInformation-ToBeSetup-List.c.o
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_M2SetupRequest.c.o
+[  3%] Built target dfts
+[  3%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_M2SetupResponse.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRB-Activity-Item.c.o
+[  3%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRB-Activity-List.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Cell-List.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Counting-Request-Session.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRB-Activity.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRB-Information.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/API/USER/at_error.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/API/USER/at_response.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Counting-Request-SessionIE.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Counting-Result-List.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRB-Notify-Item.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRB-Notify-List.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Counting-Result.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBID.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-E-RAB-QoS-Parameters.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-FailedToBeModified-Item.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/API/USER/user_api.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-FailedToBeModified-List.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Service-Area-ID-List.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-FailedToBeSetup-Item.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-FailedToBeSetup-List.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Service-Area.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-FailedToBeSetupMod-Item.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Service-associatedLogicalM2-ConnectionItem.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-Modified-Item.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-FailedToBeSetupMod-List.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/API/USER/user_indication.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Service-associatedLogicalM2-ConnectionListRes.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-Modified-List.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ModifiedConf-Item.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Service-associatedLogicalM2-ConnectionListResAck.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ModifiedConf-List.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-Required-ToBeModified-Item.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/API/USIM/aka_functions.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Session-ID.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Suspension-Notification-Item.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-Required-ToBeModified-List.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-Required-ToBeReleased-Item.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMS-Suspension-Notification-List.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/API/USIM/usim_api.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-Required-ToBeReleased-List.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-Setup-Item.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMSsessionListPerPMCH-Item.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-Setup-List.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBMSsessionsToBeSuspendedListPerPMCH-Item.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-SetupMod-Item.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/AttachAccept.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/AttachComplete.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBSFN-Area-Configuration-List.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-SetupMod-List.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/AttachReject.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/AttachRequest.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/AuthenticationFailure.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBSFN-Area-ID.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/AuthenticationReject.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ToBeModified-Item.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/AuthenticationRequest.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBSFN-Subframe-Configuration.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/AuthenticationResponse.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ToBeModified-List.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/CsServiceNotification.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBSFN-Subframe-ConfigurationList.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/DetachAccept.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/DetachRequest.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ToBeReleased-Item.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MBSFN-SynchronisationArea-ID.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCCH-Update-Time.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ToBeReleased-List.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/DownlinkNasTransport.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCCHrelatedBCCH-ConfigPerMBSFNArea-Item.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/EmmInformation.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/emm_msg.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/EmmStatus.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCCHrelatedBCCH-ConfigPerMBSFNArea.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/ExtendedServiceRequest.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ToBeSetup-Item.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCE-ID.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/GutiReallocationCommand.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCE-MBMS-M2AP-ID.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/GutiReallocationComplete.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ToBeSetup-List.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/IdentityRequest.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCEConfigurationUpdate.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/IdentityResponse.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCEConfigurationUpdateAcknowledge.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/SecurityModeCommand.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCEConfigurationUpdateFailure.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ToBeSetupMod-Item.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/SecurityModeComplete.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCEname.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/SecurityModeReject.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/ServiceReject.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/ServiceRequest.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRBs-ToBeSetupMod-List.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCH-Scheduling-Period.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/TrackingAreaUpdateAccept.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DRXCycle.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/TrackingAreaUpdateComplete.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/TrackingAreaUpdateReject.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCH-Scheduling-PeriodExtended.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MCH-Scheduling-PeriodExtended2.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DUtoCURRCContainer.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/TrackingAreaUpdateRequest.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MbmsOverloadNotification.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MbmsSchedulingInformation.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/EMM/MSG/UplinkNasTransport.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ActivateDedicatedEpsBearerContextAccept.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DUtoCURRCInformation.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ActivateDedicatedEpsBearerContextReject.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MbmsSchedulingInformationResponse.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MbmsServiceCountingFailure.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DuplicationActivation.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ActivateDedicatedEpsBearerContextRequest.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MbmsServiceCountingRequest.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ActivateDefaultEpsBearerContextAccept.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MbmsServiceCountingResponse.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ActivateDefaultEpsBearerContextReject.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ActivateDefaultEpsBearerContextRequest.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_DuplicationIndication.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/BearerResourceAllocationReject.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_MbmsServiceCountingResultsReport.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Modification-PeriodExtended.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Dynamic5QIDescriptor.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/BearerResourceAllocationRequest.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/BearerResourceModificationReject.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Modulation-Coding-Scheme2.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Overload-Status-Per-PMCH-List.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/BearerResourceModificationRequest.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/DeactivateEpsBearerContextAccept.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_EUTRA-FDD-Info.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PLMN-Identity.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PMCH-Configuration-Item.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/DeactivateEpsBearerContextRequest.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_EUTRA-Mode-Info.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_EUTRA-NR-CellResourceCoordinationReq-Container.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/EsmInformationResponse.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/EsmInformationRequest.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PMCH-Configuration-List.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PMCH-Configuration.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/esm_msg.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/EsmStatus.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_EUTRA-NR-CellResourceCoordinationReqAck-Container.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PMCH-Overload-Status.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ModifyEpsBearerContextAccept.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Pre-emptionCapability.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ModifyEpsBearerContextReject.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/ModifyEpsBearerContextRequest.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_EUTRA-TDD-Info.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Pre-emptionVulnerability.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Presence.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/PdnConnectivityReject.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Endpoint-IP-address-and-port.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_EUTRANQoS.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PriorityLevel.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PrivateIE-Container.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ErrorIndication.c.o
+[  5%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/PdnConnectivityRequest.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ExecuteDuplication.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PrivateIE-Field.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PrivateIE-ID.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_PrivateMessage.c.o
+[  5%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_F1AP-PDU.c.o
+[  5%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProcedureCode.c.o
+[  6%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_F1SetupFailure.c.o
+[  6%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolExtensionContainer.c.o
+[  6%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolExtensionField.c.o
+[  6%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolIE-Container.c.o
+[  6%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/PdnDisconnectReject.c.o
+[  6%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/ESM/MSG/PdnDisconnectRequest.c.o
+[  6%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_F1SetupRequest.c.o
+[  6%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_F1SetupResponse.c.o
+[  6%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolIE-ContainerList.c.o
+[  6%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_FDD-Info.c.o
+[  6%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_FiveGS-TAC.c.o
+[  6%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Flows-Mapped-To-DRB-Item.c.o
+[  7%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/AccessPointName.c.o
+[  7%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/AdditionalUpdateResult.c.o
+[  7%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolIE-ContainerPair.c.o
+[  7%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolIE-ContainerPairList.c.o
+[  7%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Flows-Mapped-To-DRB-List.c.o
+[  7%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_FreqBandNrItem.c.o
+[  7%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolIE-Field.c.o
+[  7%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolIE-FieldPair.c.o
+[  7%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_FullConfiguration.c.o
+[  7%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/AdditionalUpdateType.c.o
+[  7%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/ApnAggregateMaximumBitRate.c.o
+[  7%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GBR-QoSFlowInformation.c.o
+[  7%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/AuthenticationFailureParameter.c.o
+[  7%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolIE-ID.c.o
+[  7%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GBR-QosInformation.c.o
+[  7%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ProtocolIE-Single-Container.c.o
+[  7%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/AuthenticationParameterAutn.c.o
+[  7%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-Name.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_QCI.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-Failed-To-Setup-Item.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/AuthenticationParameterRand.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/AuthenticationResponseParameter.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Repetition-PeriodExtended.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-Failed-To-Setup-List.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Reset.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-Setup-Item.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/CipheringKeySequenceNumber.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ResetAcknowledge.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/Cli.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ResetAll.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/CsfbResponse.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-Setup-List.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-To-Add-Item.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_ResetType.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SC-PTM-Information.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/DaylightSavingTime.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-To-Add-List.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-To-Remove-Item.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-To-Remove-List.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SFN.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/DetachType.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SessionStartFailure.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-To-Update-Item.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SessionStartRequest.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-TNL-Association-To-Update-List.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CU-UE-F1AP-ID.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/DrxParameter.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SessionStartResponse.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-CUSystemInformation.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SessionStopRequest.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EmergencyNumberList.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-DU-ID.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EmmCause.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-DU-Name.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsAttachResult.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SessionStopResponse.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SessionUpdateFailure.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-DU-Served-Cells-Item.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-DU-Served-Cells-List.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SessionUpdateRequest.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-DU-System-Information.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SessionUpdateResponse.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsAttachType.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_Subcarrier-SpacingMBMS.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsBearerContextStatus.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SubframeAllocationExtended.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_SuccessfulOutcome.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNB-DU-UE-F1AP-ID.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNBCUConfigurationUpdate.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_TMGI.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_TNL-Information.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsBearerIdentity.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNBCUConfigurationUpdateAcknowledge.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_TimeToWait.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsMobileIdentity.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsNetworkFeatureSupport.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_TriggeringMessage.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_TypeOfError.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNBCUConfigurationUpdateFailure.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/M2AP_UnsuccessfulOutcome.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/NativeEnumerated.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsQualityOfService.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/NativeInteger.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/OBJECT_IDENTIFIER.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNBDUConfigurationUpdate.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsUpdateResult.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EpsUpdateType.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/OCTET_STRING.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNBDUConfigurationUpdateAcknowledge.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/OPEN_TYPE.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/PrintableString.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/asn_SEQUENCE_OF.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNBDUConfigurationUpdateFailure.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNBDUResourceCoordinationRequest.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GNBDUResourceCoordinationResponse.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EsmCause.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/asn_SET_OF.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/asn_application.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GTP-TEID.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_GTPTunnel.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/asn_bit_data.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_HandoverPreparationInformation.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/asn_codecs_prim.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_InactivityMonitoringRequest.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EsmInformationTransferFlag.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_InactivityMonitoringResponse.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_InitialULRRCMessageTransfer.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/asn_internal.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_InitiatingMessage.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_LCID.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/asn_random_fill.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/ber_decoder.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/EsmMessageContainer.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/ber_tlv_length.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/GprsTimer.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/GutiType.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/ber_tlv_tag.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ListofEUTRACellsinGNBDUCoordination.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/constr_CHOICE.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/constr_SEQUENCE.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/IdentityType2.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/ImeisvRequest.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_LongDRXCycleLength.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/constr_SEQUENCE_OF.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/KsiAndSequenceNumber.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_MIB-message.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_MaskedIMEISV.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/LcsClientIdentity.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/constr_SET_OF.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/constr_TYPE.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/LcsIndicator.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_MaxDataBurstVolume.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/constraints.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/der_encoder.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/LinkedEpsBearerIdentity.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/LlcServiceAccessPointIdentifier.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_MaxPacketLossRate.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/per_decoder.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/per_encoder.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/per_opentype.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_MeasConfig.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/LocationAreaIdentification.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/MessageType.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/per_support.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_MeasGapConfig.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/xer_decoder.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/xer_encoder.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/MobileIdentity.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/MobileStationClassmark2.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NGRANAllocationAndRetentionPriority.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/CMakeFiles/M2AP_R14/xer_support.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/MobileStationClassmark3.c.o
+[  9%] Building C object CMakeFiles/M2AP_LIB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_common.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NR-CGI-List-For-Restart-List.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NR-CGI-List-For-Restart-Item.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NR-Mode-Info.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/MsNetworkCapability.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NRCGI.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/MsNetworkFeatureSupport.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NRCellIdentity.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NRFreqInfo.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/NasKeySetIdentifier.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NRNRB.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NRPCI.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NRSCS.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/NasMessageContainer.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NonDynamic5QIDescriptor.c.o
+[  9%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/NasRequestType.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Notification-Cause.c.o
+[  9%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NotificationControl.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Notify.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NumberOfBroadcasts.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/NasSecurityAlgorithms.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_NumberofBroadcastRequest.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/NetworkName.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/Nonce.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_OffsetToPointA.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/PacketFlowIdentifier.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PLMN-Identity.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PWS-Failed-NR-CGI-Item.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PWS-Failed-NR-CGI-List.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/PagingIdentity.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PWSCancelRequest.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/PdnAddress.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/PdnType.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PWSCancelResponse.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/PlmnList.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PWSFailureIndication.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PWSRestartIndication.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/ProcedureTransactionIdentity.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PWSSystemInformation.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/ProtocolConfigurationOptions.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/ProtocolDiscriminator.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PacketDelayBudget.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PacketErrorRate.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Paging.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/PTmsiSignature.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/QualityOfService.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PagingCell-Item.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PagingCell-list.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PagingDRX.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/RadioPriority.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/SecurityHeaderType.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/ServiceType.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/ShortMac.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PagingIdentity.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PagingPriority.c.o
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_common.h:39,
+                 from /home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_common.c:31:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/SsCode.c.o
+CMakeFiles/M2AP_LIB.dir/build.make:4046: recipe for target 'CMakeFiles/M2AP_LIB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_common.c.o' failed
+make[3]: *** [CMakeFiles/M2AP_LIB.dir/home/lucas/workspace/ue_folder/openair2/M2AP/m2ap_common.c.o] Error 1
+CMakeFiles/Makefile2:3648: recipe for target 'CMakeFiles/M2AP_LIB.dir/all' failed
+make[2]: *** [CMakeFiles/M2AP_LIB.dir/all] Error 2
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/SupportedCodecList.c.o
+[ 10%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/TimeZoneAndTime.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Potential-SpCell-Item.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Potential-SpCell-List.c.o
+[ 10%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Pre-emptionCapability.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/TimeZone.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/TmsiStatus.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/TrackingAreaIdentity.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Pre-emptionVulnerability.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Presence.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/TrackingAreaIdentityList.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/TrafficFlowAggregateDescription.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PriorityLevel.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PrivateIE-Container.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/TrafficFlowTemplate.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PrivateIE-Field.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/TransactionIdentifier.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PrivateIE-ID.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/UeNetworkCapability.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/UeRadioCapabilityInformationUpdateNeeded.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_PrivateMessage.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProcedureCode.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/UeSecurityCapability.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Protected-EUTRA-Resources-List.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtectedEUTRAResourceIndication.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolExtensionContainer.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolExtensionField.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/IES/VoiceDomainPreferenceAndUeUsageSetting.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolExtensionID.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolIE-Container.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/UTIL/device.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolIE-ContainerPair.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolIE-Field.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/UTIL/memory.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/UTIL/nas_timer.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolIE-FieldPair.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/UTIL/stty.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/UTIL/socket.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolIE-ID.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ProtocolIE-SingleContainer.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_QCI.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/UTIL/TLVDecoder.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/UTIL/TLVEncoder.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/COMMON/UTIL/OctetString.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/Attach.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_QoS-Characteristics.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_QoSFlowIndicator.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/Authentication.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/Detach.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_QoSFlowLevelQoSParameters.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_QoSInformation.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RANAC.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RANUEPagingIdentity.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RAT-FrequencyPriorityInformation.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/emm_main.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/EmmStatusHdl.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/Identification.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RAT-FrequencySelectionPriority.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/IdleMode.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RLCMode.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/LowerLayer.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RRCContainer.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RRCRconfigurationCompleteIndicator.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RepetitionPeriod.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/SecurityModeControl.c.o
+In file included from /home/lucas/workspace/ue_folder/common/ran_context.h:54:0,
+                 from /home/lucas/workspace/ue_folder/openair1/PHY/phy_extern.h:26,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent_ran_api.h:45,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent_common.h:40,
+                 from /home/lucas/workspace/ue_folder/openair2/ENB_APP/flexran_agent.h:32,
+                 from /home/lucas/workspace/ue_folder/targets/RT/USER/lte-softmodem.h:32,
+                 from /home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/Authentication.c:71:
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: error: ‘MAX_MOBILES_PER_GNB’ undeclared here (not in a function); did you mean ‘MAX_MOBILES_PER_ENB’?
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^
+/home/lucas/workspace/ue_folder/openair2/RRC/NR/nr_rrc_defs.h:84:48: note: in definition of macro ‘NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE’
+ #define NR_UID_LINEAR_ALLOCATOR_BITMAP_SIZE (((MAX_MOBILES_PER_GNB/8)/sizeof(unsigned int)) + 1)
+                                                ^~~~~~~~~~~~~~~~~~~
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_RequestType.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Reset.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/ServiceRequestHdl.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ResetAcknowledge.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ResetAll.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/TrackingAreaUpdate.c.o
+[ 11%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/SAP/emm_as.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ResetType.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ResourceCoordinationTransferContainer.c.o
+CMakeFiles/LIB_NAS_UE.dir/build.make:3782: recipe for target 'CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/Authentication.c.o' failed
+make[3]: *** [CMakeFiles/LIB_NAS_UE.dir/home/lucas/workspace/ue_folder/openair3/NAS/UE/EMM/Authentication.c.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-FailedtoSetup-Item.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-FailedtoSetup-List.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-FailedtoSetupMod-Item.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-FailedtoSetupMod-List.c.o
+[ 11%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-ToBeRemoved-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-ToBeRemoved-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-ToBeSetup-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-ToBeSetup-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-ToBeSetupMod-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCell-ToBeSetupMod-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SCellIndex.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SIB1-message.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SIBtype-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SIBtype-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SIBtype.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SNSSAI.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBID.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-FailedToBeSetup-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-FailedToBeSetup-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-FailedToBeSetupMod-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-FailedToBeSetupMod-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-Required-ToBeReleased-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-Required-ToBeReleased-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-ToBeReleased-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-ToBeReleased-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-ToBeSetup-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-ToBeSetup-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-ToBeSetupMod-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SRBs-ToBeSetupMod-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SUL-Information.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ServCellIndex.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Served-Cell-Information.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Served-Cells-To-Add-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Served-Cells-To-Add-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Served-Cells-To-Delete-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Served-Cells-To-Delete-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Served-Cells-To-Modify-Item.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Served-Cells-To-Modify-List.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Served-EUTRA-Cells-Information.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ShortDRXCycleLength.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ShortDRXCycleTimer.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SliceSupportItem.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SliceSupportList.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SpectrumSharingGroupID.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SubscriberProfileIDforRFP.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SuccessfulOutcome.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SystemInformationDeliveryCommand.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_SupportedSULFreqBandItem.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_TDD-Info.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_TNLAssociationUsage.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_TimeToWait.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_TransactionID.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_Transmission-Bandwidth.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_TransmissionStopIndicator.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_TransportLayerAddress.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_TriggeringMessage.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_TypeOfError.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UE-CapabilityRAT-ContainerList.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UE-associatedLogicalF1-ConnectionItem.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UE-associatedLogicalF1-ConnectionListRes.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UE-associatedLogicalF1-ConnectionListResAck.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextModificationConfirm.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextModificationFailure.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextModificationRequest.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextModificationRequired.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextModificationResponse.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextReleaseCommand.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextReleaseComplete.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextReleaseRequest.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextSetupFailure.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextSetupRequest.c.o
+[ 12%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEContextSetupResponse.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEIdentityIndexValue.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UEInactivityNotification.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ULConfiguration.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ULRRCMessageTransfer.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ULUEConfiguration.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ULUPTNLInformation-ToBeSetup-Item.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_ULUPTNLInformation-ToBeSetup-List.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UPTransportLayerInformation.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_UnsuccessfulOutcome.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_WriteReplaceWarningResponse.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/F1AP_WriteReplaceWarningRequest.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/INTEGER.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/NativeEnumerated.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/NativeInteger.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/OBJECT_IDENTIFIER.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/OCTET_STRING.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/OPEN_TYPE.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/PrintableString.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/asn_SEQUENCE_OF.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/asn_SET_OF.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/asn_application.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/asn_bit_data.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/asn_codecs_prim.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/asn_internal.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/asn_random_fill.c.o
+CMakeFiles/Makefile2:3686: recipe for target 'CMakeFiles/LIB_NAS_UE.dir/all' failed
+make[2]: *** [CMakeFiles/LIB_NAS_UE.dir/all] Error 2
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/ber_decoder.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/ber_tlv_length.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/ber_tlv_tag.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/constr_CHOICE.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/constr_SEQUENCE.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/constr_SEQUENCE_OF.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/constr_SET_OF.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/constr_TYPE.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/constraints.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/der_encoder.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/per_decoder.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/per_encoder.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/per_opentype.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/per_support.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/xer_decoder.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/xer_encoder.c.o
+[ 14%] Building C object CMakeFiles/F1AP_LIB.dir/CMakeFiles/F1AP_R15.2.1/xer_support.c.o
+[ 14%] Linking C static library libF1AP_LIB.a
+[ 14%] Built target F1AP_LIB
+CMakeFiles/Makefile2:4912: recipe for target 'CMakeFiles/lte-uesoftmodem.dir/rule' failed
+make[1]: *** [CMakeFiles/lte-uesoftmodem.dir/rule] Error 2
+Makefile:1672: recipe for target 'lte-uesoftmodem' failed
+make: *** [lte-uesoftmodem] Error 2
